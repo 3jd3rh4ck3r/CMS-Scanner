@@ -48,10 +48,7 @@ def backup_h(url):
             jbackup.append(url)
     except:
         pass
-
-def vbulletin(url, cf):
-    pass
-
+    
 def joomla(url, cf):
     headers={
         "User-Agent": UserAgent().random
