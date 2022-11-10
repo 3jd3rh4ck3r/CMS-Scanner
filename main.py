@@ -377,7 +377,7 @@ def request(url, cf, headers, data, params, method, timeout):
 def wkontrol(url):
     req = requests.get(url)
     wf = [
-        "cloudflare","Cloudfront","ddos-guard","imunify360","mod_security","Sucuri","WatchGuard"
+        "cloudflare"
     ]
     for w in wf:
         if (w in req.headers["Server"]):
